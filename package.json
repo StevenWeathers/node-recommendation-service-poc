@@ -1,0 +1,31 @@
+{
+  "name": "recommendation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm install",
+    "start": "node index.js",
+    "test": "lab",
+    "coverage": "lab -r html -o coverage.html && open coverage.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "async": "1.5.0",
+    "glue": "2.4.0",
+    "hapi": "11.1.0",
+    "joi": "7.0.0",
+    "lodash": "3.10.1",
+    "redis": "^2.6.2",
+    "wreck": "^10.0.0"
+  },
+  "devDependencies": {
+    "code": "2.0.1",
+    "lab": "7.3.0",
+    "nock": "3.1.0",
+    "sinon": "1.17.2"
+  }
+}
